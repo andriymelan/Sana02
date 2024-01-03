@@ -20,7 +20,7 @@ if (D == 0)
     Console.WriteLine($"Розв'язанням є число {x1}");
 }
 if (D>0){
-    x1 = -b - Math.Sqrt(D) / (2 * a);
-    x2 = -b + Math.Sqrt(D) / (2 * a);
+    x1 = (-b - Math.Sqrt(D)) / (2 * a);
+    x2 = (-b + Math.Sqrt(D)) / (2 * a);
     Console.WriteLine($"Розв'язанням є числа {x1} і {x2}");
 }

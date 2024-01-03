@@ -18,7 +18,7 @@ double.TryParse(Console.ReadLine(), out fifth);
 avarage = (first + second + third + fourth + fifth) / 5;
 if (0 > first || 100 < first || 0 > second || 100 < second || 0 > third || 100 < third || 0 > fourth || 100 < fourth || 0 > fifth || 100 < fifth)
     Console.WriteLine("Помилка");
-else if (avarage > 50)
+else if (avarage >= 50)
     Console.WriteLine("Студент допущений до екзамену");
 else 
     Console.WriteLine("Студент не допущений до екзамену");
